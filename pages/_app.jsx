@@ -8,7 +8,7 @@ import {
 import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 import { ApolloProviderWrapper } from "../lib/apolloClient";
-
+import '../styles/globals.css'
 /**
  * List pages you want to be publicly accessible, or leave empty if
  * every page requires authentication. Use this naming strategy:
@@ -17,7 +17,7 @@ import { ApolloProviderWrapper } from "../lib/apolloClient";
  *  "/foo/bar"       for pages/foo/bar.js
  *  "/foo/[...bar]"  for pages/foo/[...bar].js
  */
-const publicPages = ["/", "/sign-in/[[...index]]", "/sign-up/[[...index]]"];
+const publicPages = ["/", "/test","/sign-in/[[...index]]", "/sign-up/[[...index]]"];
 
 const MyApp = ({ Component, pageProps }) => {
   const router = useRouter();

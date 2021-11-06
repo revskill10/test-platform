@@ -23,3 +23,6 @@ To run the example locally you need to:
 ## Contact
 
 If you have any specific use case or anything you would like to ask, please reach out!
+https://test-admin-pro.herokuapp.com/v1/graphql
+
+{"jwk_url":"https://clerk.yu3cy.fio8e.lcl.dev/.well-known/jwks.json"}
